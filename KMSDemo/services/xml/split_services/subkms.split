@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pxsObject>
+    <appSmsCode></appSmsCode>
+    <plainxmlservice>
+        <authenticationMode>basic</authenticationMode>
+        <cacheduration></cacheduration>
+        <cacheable>false</cacheable>
+        <dataprovider></dataprovider>
+        <dcResponse/>
+        <encryptPwd>true</encryptPwd>
+        <escapeXML>false</escapeXML>
+        <group>other</group>
+        <httpmethod></httpmethod>
+        <id>subkms</id>
+        <ignoreProxy>false</ignoreProxy>
+        <intemplate>&lt;?xml version='1.0' encoding='UTF-8'?&gt;
+&lt;subscriptionService&gt;
+  &lt;subscribe&gt;
+    &lt;appId&gt;pushme&lt;/appId&gt;
+    &lt;deviceId&gt;1234567890&lt;/deviceId&gt;
+    &lt;ufid&gt;user@kony.com&lt;/ufid&gt;
+    &lt;sid&gt;721807826787&lt;/sid&gt;
+    &lt;osType&gt;android&lt;/osType&gt;
+&lt;isGCM&gt;true&lt;/isGCM&gt;
+  &lt;/subscribe&gt;
+&lt;/subscriptionService&gt;
+</intemplate>
+        <ntlmDomain></ntlmDomain>
+        <ntlmHost></ntlmHost>
+        <outtemplate>&lt;subscriptionResponse&gt;
+   &lt;statusCode&gt;200&lt;/statusCode&gt;
+   &lt;ksid&gt;1&lt;/ksid&gt;
+   &lt;message&gt;Subscription successful. &lt;/message&gt;
+&lt;/subscriptionResponse&gt;
+</outtemplate>
+        <password></password>
+        <postclassname></postclassname>
+        <preclassname></preclassname>
+        <proxyname></proxyname>
+        <proxyport></proxyport>
+        <proxypwd></proxypwd>
+        <proxyuserid></proxyuserid>
+        <responseencoding>UTF-8</responseencoding>
+        <smscode></smscode>
+        <smsenabled>false</smsenabled>
+        <timeout></timeout>
+        <url>https://kwdevelopment.messaging.konycloud.com/subscription</url>
+        <urlprovider></urlprovider>
+        <userid></userid>
+    </plainxmlservice>
+</pxsObject>
