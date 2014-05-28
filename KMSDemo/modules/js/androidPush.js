@@ -11,12 +11,12 @@ function callbackAndroidSetCallbacks()
  	kony.push.setCallbacks({onsuccessfulregistration: regSuccessAndroidCallback, onfailureregistration: regFailureAndroidCallback,
  						    onlinenotification: onlinePushNotificationAndroidCallback, offlinenotification: offlinePushNotificationAndroidCallback,
  						    onsuccessfulderegistration: unregSuccessAndroidCallback, onfailurederegistration:unregFailureAndroidCallback });
- 	alert("setCallBack Done !!!");
+ //	alert("setCallBack Done !!!");
 }
 
 function regSuccessAndroidCallback(regId)
 {
-	alert("calling subscribe kms");
+//	alert("calling subscribe kms");
 	subscribeKMS(regId,"android");
 }
 
@@ -30,14 +30,14 @@ function onlinePushNotificationAndroidCallback(msg)
 {
 	kony.print("************ JS onlinePushNotificationCallback() called *********");
 	kony.print(JSON.stringify(msg));
-	alert("Message Received : "+ msg["content"]+"\nFetchid: "+msg["mid"]);
+	//alert("Message Received : "+ msg["content"]+"\nFetchid: "+msg["mid"]);
 }
 
 function offlinePushNotificationAndroidCallback(msg)
 {
 	kony.print("************ JS offlinePushNotificationCallback() called *********");
 	kony.print(msg);
-	alert("Message Received..\n "+msg["content"]);
+//	alert("Message Received..\n "+msg["content"]);
 }
 
 
