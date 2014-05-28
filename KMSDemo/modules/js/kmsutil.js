@@ -44,7 +44,7 @@ function unsubscribeKMS()
 function KMSunregCallback(status,result){
      if(status==400){
 	 kony.print("$#."+JSON.stringify(result));
-	 alert("result:"+result);
+	// alert("result:"+result);
 	 var tmp = result["subscriptionResponse"];
 	 ksid = tmp["ksid"];
 		if((tmp["statusCode"] == 200)){
@@ -67,7 +67,7 @@ function KMSunregCallback(status,result){
 function pushRegister()
 {
 	var devName = kony.os.deviceInfo().name;
-	alert("devName" + devName);
+//	alert("devName" + devName);
 	if(devName=="android")
 	{
 		callbackAndroidSetCallbacks();
