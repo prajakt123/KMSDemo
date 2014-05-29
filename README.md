@@ -15,9 +15,9 @@ This Application will showcase Kony Messaging Service on Cloud.
  
 var KMSPROP = 
 
-{
-    
-    "kmsserverurl" : "< kms cloud console url >",
+   	{ 
+   	
+   		"kmsserverurl" : "< kms cloud console url >",
     
 		"senderID" :"<senderID>", // applicable for android only- clientID generated in google console
 		
@@ -26,7 +26,7 @@ var KMSPROP =
 		"deviceID" : kony.os.deviceInfo().deviceid,
 		
 		"ufID":"kmsdemouser@kony.com" // any unique identifier for the app
-}
+		}
 
  * Build for Android or iphone and run the app on device.
 
