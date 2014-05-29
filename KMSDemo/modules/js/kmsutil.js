@@ -1,8 +1,8 @@
 function subscribeKMS(regId,ostype)
 {
-	var isGCM = false;
+	var isGCM = "false";
 	if(ostype == "android")
-		isGCM = true;
+		isGCM = "true";
 		
     var sub = {"sid":regId,"appId":KMSPROP.appID,"ufid":KMSPROP.ufID,"osType":ostype,"deviceId": KMSPROP.deviceID, "isGCM": isGCM };
 	var inp = {"subscriptionService":{"subscribe":sub}};
