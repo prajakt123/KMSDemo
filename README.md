@@ -12,6 +12,22 @@ This Application will showcase Kony Messaging Service on Cloud.
  * Navigate to Modules-->JS folder
  * Open configproperties.js file
  * Configure SenderID- the clientID generated in google API console,appID - the ID generated in Kony Messaging service console and ufID- any unique identifier for your app
+ 
+var KMSPROP = 
+
+{
+    
+    "kmsserverurl" : "< kms cloud console url >",
+    
+		"senderID" :"<senderID>", // applicable for android only- clientID generated in google console
+		
+		"appID":"KMSDemo", // appID generated or given in the cloud KMS console
+		
+		"deviceID" : kony.os.deviceInfo().deviceid,
+		
+		"ufID":"kmsdemouser@kony.com" // any unique identifier for the app
+}
+
  * Build for Android or iphone and run the app on device.
 
 
