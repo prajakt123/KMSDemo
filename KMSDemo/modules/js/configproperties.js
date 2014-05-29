@@ -1,5 +1,4 @@
-// put in the Kony Messagign server details here
-// if using diff server from ur cloud input here else get teh url from appconfig
+// put in the Kony Messaging server details here
 var KMSPROP = {
 
 		"kmsserverurl" : "<kms cloud console url>",
