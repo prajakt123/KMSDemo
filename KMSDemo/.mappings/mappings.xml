@@ -1,1 +1,0 @@
-<application name="KMSDemo"><globalsequences><event id = "frmOptions_hbx1_onClick" name="onClick" sequenceid="seq0" sequencename="frmOptions_hbx1_onClick_seq0" platform="general"><params><param name="eventobject" value="eventobject"/></params><sequence id = "seq0" enabled="true"></sequence></event></globalsequences></application>
